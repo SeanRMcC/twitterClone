@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
 
 app.post('/tweet',(req, res) => {
     console.log(req.body);
-})
+});
 
 app.listen(8000, () => {
     console.log('Listening on port 8000 ...');
-})
+});
